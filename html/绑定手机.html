@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no"name="format-detection"/>
+<meta content="email=no"name="format-detection"/>
+<title>充电桩</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body >
+<div class="error">
+	<!--提示错误的地方-->
+</div>
+<div class="top">绑定手机</div>
+<div class="toph"></div>
+<div class="register-bg">
+	
+        <h1>充电桩</h1>
+   <form action="充电桩列表.html">
+    <section class="register-con">
+    	<div class="register-inp">
+            <input type="tel" placeholder="输入手机号" class="tel-number">
+        </div>
+    	<div class="register-inp">
+            <input type="text" placeholder="输入验证码" class="yzm"><input type="button" class="fsyzm" value="发送验证码" onclick="sendMessage()" id="btnSendCode">
+        </div>
+
+        <input type="submit" class="binding" value="绑定手机">
+        
+    </section>
+    </form>
+    
+    
+</div>    
+    <div class="ewm">
+    	<p>长按二维码关注公众号</p>
+    	<p>获取更多信息哦</p>
+        <img src="images/pro.png">
+    </div>
+    
+<script type="text/javascript">
+
+var InterValObj; //timer变量，控制时间
+var count = 30; //间隔函数，1秒执行
+var curCount;//当前剩余秒数
+var code = ""; //验证码
+var codeLength = 6;//验证码长度
+function sendMessage() {
+            curCount = count;
+            var dealType; //验证方式
+var uid=$("#uid").val();//用户uid
+if ($("#phone").attr("checked") == true) {
+                dealType = "phone";
+            }
+            else {
+                dealType = "email";
+            }
+            //产生验证码
+for (var i = 0; i < codeLength; i++) {
+                code += parseInt(Math.random() * 9).toString();
+            }
+            //设置button效果，开始计时
+                $("#btnSendCode").attr("disabled", "true");
+                $("#btnSendCode").val( + curCount + "秒再获取");
+                $("#btnSendCode").css('color','#999');
+                InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
+//向后台发送处理数据
+                $.ajax({
+                    type: "POST", //用POST方式传输
+                    dataType: "text", //数据格式:JSON
+                    url: 'Login.ashx', //目标地址
+                    data: "dealType=" + dealType +"&uid=" + uid + "&code=" + code,
+                    error: function (XMLHttpRequest, textStatus, errorThrown) { },
+                    success: function (msg){ }
+                });
+            }
+        //timer处理函数
+function SetRemainTime() {
+            if (curCount == 0) {                
+                window.clearInterval(InterValObj);//停止计时器
+                $("#btnSendCode").removeAttr("disabled");//启用按钮
+                $("#btnSendCode").val("重新发送验证码");
+                code = ""; //清除验证码。如果不清除，过时间后，输入收到的验证码依然有效    
+            }
+            else {
+                curCount--;
+                $("#btnSendCode").val( + curCount + "秒再获取");
+            }
+        }
+    </script> 
+    
+    
+    
+    
+    
+    
+</body>
+</html>

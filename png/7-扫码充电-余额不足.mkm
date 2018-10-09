@@ -1,0 +1,8 @@
+<MKM version="2.0" imageFileUrl="file:///E:/svn/Chongdianz_UI/png/7-%e6%89%ab%e7%a0%81%e5%85%85%e7%94%b5-%e4%bd%99%e9%a2%9d%e4%b8%8d%e8%b6%b3.png">
+  <Marks>
+    <ColorMark defaultDirection="9" direction="9" color="16711680" targetColor="16119285" offsetX="25" offsetY="10" x="598" y="375"/>
+    <LengthMark direction="3" color="16711680" length="80" x="425" y="209"/>
+    <LengthMark direction="3" color="16711680" length="80" x="408" y="324"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="530" y="281" textMaxWidth="100" offsetX="25" offsetY="10" text="32px,#000000"/>
+  </Marks>
+</MKM>

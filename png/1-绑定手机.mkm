@@ -1,0 +1,25 @@
+<MKM version="2.0" imageFileUrl="file:///D:/%e5%b7%a5%e4%bd%9c/Chongdianz_UI/png/1-%e7%bb%91%e5%ae%9a%e6%89%8b%e6%9c%ba.png">
+  <Marks>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="442" y="402" textMaxWidth="100" offsetX="25" offsetY="10" text="690*70px,描边#e5e5e5，1px"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="411" y="263" textMaxWidth="100" offsetX="25" offsetY="10" text="32px,#85c226"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="563" y="184" textMaxWidth="100" offsetX="25" offsetY="10" text="74px,#85c226"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="447" y="169" textMaxWidth="100" offsetX="25" offsetY="10" text="32px"/>
+    <LengthMark direction="3" color="16711680" length="60" x="365" y="209"/>
+    <LengthMark direction="3" color="16711680" length="60" x="387" y="301"/>
+    <LengthMark direction="3" color="16711680" length="20" x="392" y="432"/>
+    <LengthMark direction="12" color="16711680" length="60" x="30" y="468"/>
+    <LengthMark direction="12" color="16711680" length="20" x="30" y="392"/>
+    <LengthMark direction="12" color="16711680" length="26" x="50" y="491"/>
+    <LengthMark direction="3" color="16711680" length="26" x="63" y="479"/>
+    <LengthMark direction="3" color="16711680" length="40" x="215" y="524"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="164" y="477" textMaxWidth="100" offsetX="25" offsetY="10" text="24px,#666666"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="425" y="598" textMaxWidth="100" offsetX="25" offsetY="10" text="24px,#85c226"/>
+    <TextMark defaultDirection="9" direction="5" color="16711680" x="647" y="480" textMaxWidth="100" offsetX="25" offsetY="10" text="20px,#00a0c4"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="8765990" offsetX="25" offsetY="10" x="109" y="172"/>
+    <LengthMark direction="3" color="16711680" length="75" x="243" y="355"/>
+    <LengthMark direction="12" color="16711680" length="212" x="47" y="601"/>
+    <RectMark color="16711680" x="190" y="570" offsetX="375" offsetY="61"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="8765990" offsetX="25" offsetY="10" x="178" y="190"/>
+    <TextMark defaultDirection="9" direction="5" color="16711680" x="657" y="607" textMaxWidth="100" offsetX="25" offsetY="10" text=""/>
+  </Marks>
+</MKM>

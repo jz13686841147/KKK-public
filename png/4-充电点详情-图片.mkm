@@ -1,0 +1,8 @@
+<MKM version="2.0" imageFileUrl="file:///D:/%e5%b7%a5%e4%bd%9c/Chongdianz_UI/png/4-%e5%85%85%e7%94%b5%e7%82%b9%e8%af%a6%e6%83%85-%e5%9b%be%e7%89%87.png">
+  <Marks>
+    <LengthMark direction="12" color="16711680" length="30" x="0" y="859"/>
+    <LengthMark direction="12" color="16711680" length="30" x="720" y="857"/>
+    <LengthMark direction="3" color="16711680" length="10" x="346" y="1015"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="550" y="547" textMaxWidth="144" offsetX="25" offsetY="10" text="照片宽固定，高不固定"/>
+  </Marks>
+</MKM>

@@ -1,0 +1,20 @@
+<MKM version="2.0" imageFileUrl="file:///D:/%e5%b7%a5%e4%bd%9c/Chongdianz_UI/png/5-%e5%85%85%e7%94%b5%e6%a1%a9%e8%af%a6%e6%83%85.png">
+  <Marks>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="318" y="459" textMaxWidth="240" offsetX="25" offsetY="10" text="22px,颜色按情况不同"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="318" y="485" textMaxWidth="328" offsetX="14" offsetY="14" text="直流颜色为#00a0c4，交流颜色为#ffb844"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="510" y="467" textMaxWidth="206" offsetX="47" offsetY="47" text="空闲颜色为#85c226&#xD;占用颜色为#999999&#xD;不明颜色为#ffb844&#xD;维修颜色为#ff0000"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="16777215" offsetX="25" offsetY="10" x="100" y="418"/>
+    <LengthMark direction="3" color="16711680" length="40" x="262" y="486"/>
+    <LengthMark direction="3" color="16711680" length="24" x="375" y="372"/>
+    <LengthMark direction="3" color="16711680" length="40" x="317" y="417"/>
+    <LengthMark direction="12" color="16711680" length="14" x="280" y="467"/>
+    <LengthMark direction="12" color="16711680" length="80" x="0" y="578"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="277" y="615" textMaxWidth="100" offsetX="25" offsetY="10" text="20px,#000000"/>
+    <TextMark defaultDirection="10" direction="10" color="16711680" x="468" y="551" textMaxWidth="100" offsetX="14" offsetY="13" text="20px,#ff0000"/>
+    <LengthMark direction="3" color="16711680" length="70" x="404" y="652"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="416" y="738" textMaxWidth="100" offsetX="25" offsetY="10" text="20px,#85c226"/>
+    <LengthMark direction="3" color="16711680" length="40" x="378" y="743"/>
+    <LengthMark direction="3" color="16711680" length="90" x="376" y="210"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="8765990" offsetX="25" offsetY="10" x="539" y="168"/>
+  </Marks>
+</MKM>

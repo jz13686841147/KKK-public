@@ -1,0 +1,13 @@
+<MKM version="2.0" imageFileUrl="file:///D:/%e5%b7%a5%e4%bd%9c/Chongdianz_UI/png/10-%e8%ae%a2%e5%8d%95%e7%8a%b6%e6%80%81%ef%bc%88%e5%ae%8c%e6%88%90%e5%be%85%e8%af%84%e4%bb%b7.png">
+  <Marks>
+    <LengthMark direction="12" color="16711680" length="30" x="720" y="286"/>
+    <LengthMark direction="3" color="16711680" length="50" x="669" y="211"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="289" y="490" textMaxWidth="100" offsetX="25" offsetY="10" text="26px,#ff0000"/>
+    <LengthMark direction="3" color="16711680" length="50" x="184" y="443"/>
+    <LengthMark direction="12" color="16711680" length="60" x="0" y="668"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="8765990" offsetX="25" offsetY="10" x="521" y="168"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="10066329" offsetX="25" offsetY="10" x="364" y="313"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="16758852" offsetX="25" offsetY="10" x="107" y="629"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="0" offsetX="25" offsetY="10" x="260" y="808"/>
+  </Marks>
+</MKM>

@@ -1,0 +1,10 @@
+<MKM version="2.0" imageFileUrl="file:///D:/%e5%b7%a5%e4%bd%9c/Chongdianz_UI/png/7-%e6%89%ab%e7%a0%81%e5%85%85%e7%94%b5.png">
+  <Marks>
+    <LengthMark direction="3" color="16711680" length="60" x="388" y="210"/>
+    <LengthMark direction="12" color="16711680" length="104" x="0" y="592"/>
+    <LengthMark direction="12" color="16711680" length="104" x="645" y="579"/>
+    <LengthMark direction="3" color="16711680" length="40" x="390" y="813"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="477" y="852" textMaxWidth="100" offsetX="25" offsetY="10" text="24px,#000000"/>
+    <TextMark defaultDirection="9" direction="5" color="16711680" x="640" y="919" textMaxWidth="100" offsetX="25" offsetY="10" text="黑色蒙板&#xD;透明度20%"/>
+  </Marks>
+</MKM>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no"name="format-detection"/>
+<meta content="email=no"name="format-detection"/>
+<title>充电桩</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body >
+<div class="error">
+	<!--提示错误的地方-->
+</div>
+<div class="top">
+	<a class="backa" href="javascript:void(0);" onclick="history.go(-1)"><img src="images/icon_biaotilan_fanhui.png"></a>
+    充电桩订单
+</div>
+<div class="toph"></div>
+   <div class="wid90 marb30">
+   		<div class="order-top">
+        	<b>001号充电桩</b><span>订单待评价</span>
+            <h1>充电点名字充电点名字充电点名字</h1>
+            <p>充电地址：充电地址充电地址充电地址充电地址充电地址充电地址充电地址充电地址</p>
+            <span><img src="images/anniu_pjia.png"></span>
+            <h3>订单号:213101098190</h3>
+        </div>
+   		<div class="order-money">
+   			<p>本次使用扣除金额：10元</p>
+   			<p>剩余金额：100元</p>
+   		</div>
+   		<div class="order-price">
+   			<p>本次使用扣除金额：10元</p>
+   			<p>剩余金额：100元</p>
+   		</div>
+   		<div class="order-info">
+   			<p>充电日期：2015年9月14日</p>
+   			<p>开始充电时间：8：00</p>
+   			<p>结束充电时间：10：00</p>
+   			<p>充电时长：2小时</p>
+   			<p>本次充电电量：6.5度</p>
+   		</div>
+   </div>
+   <!--订单信息end-->
+   <form action="订单状态-完成.html">
+      <div class="comment-bg">
+      		<div class="comm-cen">
+            	<h3>订单评价</h3>
+                <ul class="comm-check">
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                	<li></li>
+                </ul>
+               
+            <div class="comm-text" id="wordCount">
+               <textarea placeholder="请输入评论" class="comm-intro"></textarea>
+               <span class="wordwrap"><var class="word">70</var>字</span>
+            </div>     
+            <input type="submit" class="comm-btn" value="发表评论">           
+            </div>
+      </div>
+      </form>
+        <!--评论end-->
+<script>
+    $(function(){
+		
+		$('.comm-check li').click(function(){
+			 $(this).addClass('star');
+			 $(this).prevAll().addClass('star');
+			 $(this).nextAll().removeClass('star');
+		});
+		$('.order-top span').click(function(){
+			 $('.comment-bg').fadeIn();
+		});
+		$('.comm-btn').click(function(){
+			 $('.comment-bg').fadeOut();
+		});
+		
+        //先选出 textarea 和 统计字数 dom 节点
+        var wordCount = $("#wordCount"),
+            textArea = wordCount.find("textarea"),
+            word = wordCount.find(".word");
+        //调用
+        statInputNum(textArea,word);
+
+    });
+    /*
+    * 剩余字数统计
+    * 注意 最大字数只需要在放数字的节点哪里直接写好即可 如：<var class="word">200</var>
+    */
+    function statInputNum(textArea,numItem) {
+        var max = numItem.text(),
+            curLength;
+        textArea[0].setAttribute("maxlength", max);
+        curLength = textArea.val().length;
+        numItem.text(max - curLength);
+        textArea.on('input propertychange', function () {
+            numItem.text(max - $(this).val().length);
+        });
+    }
+</script>
+</body>
+</html>

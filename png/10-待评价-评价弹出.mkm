@@ -1,0 +1,16 @@
+<MKM version="2.0" imageFileUrl="file:///E:/svn/Chongdianz_UI/png/10-%e5%be%85%e8%af%84%e4%bb%b7-%e8%af%84%e4%bb%b7%e5%bc%b9%e5%87%ba.png">
+  <Marks>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="556" y="386" textMaxWidth="100" offsetX="25" offsetY="10" text="点击其他区域取消评论"/>
+    <LengthMark direction="3" color="16711680" length="20" x="200" y="269"/>
+    <LengthMark direction="12" color="16711680" length="20" x="105" y="404"/>
+    <LengthMark direction="3" color="16711680" length="40" x="202" y="316"/>
+    <LengthMark direction="3" color="16711680" length="50" x="210" y="395"/>
+    <LengthMark direction="3" color="16711680" length="246" x="469" y="444"/>
+    <LengthMark direction="3" color="16711680" length="20" x="267" y="445"/>
+    <LengthMark direction="12" color="16711680" length="20" x="627" y="668"/>
+    <LengthMark direction="3" color="16711680" length="14" x="587" y="679"/>
+    <LengthMark direction="3" color="16711680" length="24" x="368" y="691"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="486" y="891" textMaxWidth="100" offsetX="25" offsetY="10" text="黑色蒙板&#xD;透明度20%"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="170" y="689" textMaxWidth="100" offsetX="25" offsetY="10" text="#e5e5e5，1px"/>
+  </Marks>
+</MKM>

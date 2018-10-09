@@ -1,0 +1,19 @@
+<MKM version="2.0" imageFileUrl="file:///D:/%e5%b7%a5%e4%bd%9c/Chongdianz_UI/png/13-%e5%85%85%e7%94%b5%e5%8e%86%e5%8f%b2.png">
+  <Marks>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="161" y="234" textMaxWidth="100" offsetX="25" offsetY="10" text="24px,#000000&#xD;加粗"/>
+    <LengthMark direction="3" color="16711680" length="30" x="105" y="210"/>
+    <LengthMark direction="12" color="16711680" length="30" x="1" y="297"/>
+    <LengthMark direction="12" color="16711680" length="30" x="716" y="297"/>
+    <LengthMark direction="3" color="16711680" length="160" x="457" y="208"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="311" y="528" textMaxWidth="100" offsetX="28" offsetY="10" text="#e5e5e5，1px"/>
+    <TextMark defaultDirection="9" direction="5" color="16711680" x="667" y="235" textMaxWidth="100" offsetX="25" offsetY="10" text="32px&#xD;#ff0000"/>
+    <LengthMark direction="3" color="16711680" length="30" x="671" y="370"/>
+    <LengthMark direction="3" color="16711680" length="30" x="671" y="430"/>
+    <TextMark defaultDirection="6" direction="6" color="16711680" x="654" y="479" textMaxWidth="100" offsetX="24" offsetY="10" text="20px#000000"/>
+    <TextMark defaultDirection="6" direction="6" color="16711680" x="628" y="315" textMaxWidth="100" offsetX="21" offsetY="21" text="20px&#xD;#ffb844"/>
+    <LengthMark direction="3" color="16711680" length="40" x="159" y="263"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="243" y="301" textMaxWidth="100" offsetX="25" offsetY="10" text="22px,#999999"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="152" y="343" textMaxWidth="100" offsetX="25" offsetY="10" text="16px,#999999"/>
+    <LengthMark direction="3" color="16711680" length="14" x="111" y="322"/>
+  </Marks>
+</MKM>

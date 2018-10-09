@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no"name="format-detection"/>
+<meta content="email=no"name="format-detection"/>
+<title>充电桩</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body >
+<div class="error">
+	<!--提示错误的地方-->
+</div>
+<div class="top">
+	<a class="backa" href="javascript:void(0);" onclick="history.go(-1)"><img src="images/icon_biaotilan_fanhui.png"></a>
+    充电桩订单
+</div>
+<div class="toph"></div>
+   <div class="wid90 marb30">
+   		<div class="order-top">
+        	<b>001号充电桩</b><span class=" colororange">订单进行中</span>
+            <h1>充电点名字充电点名字充电点名字</h1>
+            <p>充电地址：充电地址充电地址充电地址充电地址充电地址充电地址充电地址充电地址</p>
+            <br>
+            <h3>订单号:213101098190</h3>
+        </div>
+   		<div class="order-info">
+   			<p>充电日期：2015年9月14日</p>
+   			<p>开始充电时间：8：00</p>
+   		</div>
+        <br>
+   		<div class="order-price">
+   			<p>基本电费：0.91元/度</p>
+   			<p>充电服务费：1元/度</p>
+   		</div>
+   		<div class="order-info">
+   			<p>充电时长：01：00</p>
+   			<p>已充电量：6.5度</p>
+   			<p>实时金额：6元</p>
+   		</div>
+   </div>
+   <!--订单信息end-->
+	<div class="no-money">
+    	<a >结束订单</a>
+    </div>
+   <div class="loading">
+   		<div class="load-con">
+        <img src="images/loading.gif">
+        	<h3>请稍等</h3>
+        </div>
+   </div>  
+    <script>
+    	$(function(){
+			$('.no-money').click(function(){
+				$('.loading').fadeIn();	
+			});	
+		});
+    </script>   
+    
+</body>
+</html>
